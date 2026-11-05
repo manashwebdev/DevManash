@@ -9,7 +9,7 @@ A fast, animated, single-page portfolio showcasing SaaS-style products, AI-power
 [![Portfolio](https://img.shields.io/badge/Live-Portfolio-6366f1?style=for-the-badge&logo=netlify&logoColor=white)](https://manash-dev-portfolio.netlify.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-manashwebdev-181717?style=for-the-badge&logo=github)](https://github.com/manashwebdev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/manash-khati-b7a1b6385/)
-[![Email](https://img.shields.io/badge/Email-manashrebuilds%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:manashrebuilds@gmail.com)
+[![Email](https://img.shields.io/badge/Email-webdevmanash%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:webdevmanash@gmail.com)
 
 **🔗 [manash-dev-portfolio.netlify.app](https://manash-dev-portfolio.netlify.app/)**
 
@@ -22,6 +22,7 @@ A fast, animated, single-page portfolio showcasing SaaS-style products, AI-power
 - [About Me](#about-me)
 - [Preview](#preview)
 - [Featured Projects](#featured-projects)
+- [Projects in Motion](#projects-in-motion)
 - [More Work](#more-work)
 - [Skills](#skills)
 - [Portfolio Features](#portfolio-features)
@@ -68,7 +69,7 @@ Verify resume claims against real GitHub activity, compare resume versions and s
 - **History:** saves past analyses in MongoDB so they can be reviewed or deleted.
 
 **Stack:** React, Vite, Tailwind CSS, Framer Motion, Node.js, Express.js, MongoDB, Mongoose, GitHub API
-[Live Demo](https://devproof-eight.vercel.app/) · [Source Code](https://github.com/manashwebdev/devproof)
+[Live Demo](https://devproof-eight.vercel.app/)
 
 ---
 
@@ -84,7 +85,7 @@ Turn any local shop into a digital storefront in about 2 minutes.
 - Free plan (12 products) and Pro plan (unlimited)
 
 **Stack:** Next.js 15, Express.js, MongoDB, Gemini API, Cloudinary, Docker, GitHub Actions
-[Live Demo](https://shopqr-nine.vercel.app/) · [Source Code](https://github.com/manashwebdev/shopqr)
+[Live Demo](https://shopqr-nine.vercel.app/)
 
 ---
 
@@ -98,14 +99,33 @@ Both sides see the same deal, and every change needs the other side's approval.
 - **Secure sign-in:** scrypt-hashed passwords, JWT sessions, login rate limiting and owner-scoped authorization on every project route
 
 **Stack:** React, Vite, Node.js, Express.js, MongoDB, JWT, Canvas API
-[Live Demo](https://scopeshield-pi.vercel.app/) · [Source Code](https://github.com/manashwebdev/scopeshield)
+[Live Demo](https://scopeshield-pi.vercel.app/)
 
 ---
 
-### ✅ SkillProof Lite — Proof-based skill validation
-Developers prove skills through coding challenges, GitHub repos, live demos and public proof pages instead of just claiming them on a resume.
+### 🏠 RoomProof — Tamper-evident room condition records
+Move-in and move-out photo records for rented rooms. Photos are SHA-256 hashed and chained, so tenants can prove the condition of a room and protect their security deposit.
 
-[Live Demo](https://skill-proof-lite.vercel.app/)
+[Live Demo](https://roomproof-red.vercel.app/)
+
+---
+
+## Projects in Motion
+
+Ten screen-recorded builds in a horizontal scroll reel on the portfolio, each with a live link:
+
+| Project | Live |
+|---|---|
+| Meridian One | [meridian-one-six.vercel.app](https://meridian-one-six.vercel.app/) |
+| Pelagic One | [pelagic-one.vercel.app](https://pelagic-one.vercel.app/) |
+| Aura One | [auraone-cyan.vercel.app](https://auraone-cyan.vercel.app/) |
+| Nimbus One | [nimbusone-six.vercel.app](https://nimbusone-six.vercel.app/) |
+| Spice Atlas | [spice-atlas.vercel.app](https://spice-atlas.vercel.app/) |
+| Thock | [thock-eta.vercel.app](https://thock-eta.vercel.app/) |
+| ShopQR | [shopqr-nine.vercel.app](https://shopqr-nine.vercel.app/) |
+| Grinova | [grinova.vercel.app](https://grinova.vercel.app/) |
+| Kabaad | [kabaad.vercel.app](https://kabaad.vercel.app/) |
+| SoftCraft | [soft-craft-hazel.vercel.app](https://soft-craft-hazel.vercel.app/) |
 
 ---
 
@@ -115,9 +135,9 @@ Developers prove skills through coding challenges, GitHub repos, live demos and 
 
 | Project | What it does | Links |
 |---|---|---|
-| Resume Claim Verifier | Checks resume skills against public GitHub work and gives a Trust Score | [Live](https://resume-claim-verifier.vercel.app/) · [Code](https://github.com/manashwebdev/Resume-Claim-Verifier) |
-| ResumeDiff | Compares two resume versions and reports what changed in skills and content | [Live](https://resume-diff-azure.vercel.app/) · [Code](https://github.com/manashwebdev/ResumeDiff) |
-| GitHub Project Health Analyzer | Reviews README quality and project structure, then suggests fixes | [Live](https://git-hub-project-health-analyzer.vercel.app/) · [Code](https://github.com/manashwebdev/GitHub-Project-Health-Analyzer) |
+| Resume Claim Verifier | Checks resume skills against public GitHub work and gives a Trust Score | [Live](https://resume-claim-verifier.vercel.app/) |
+| ResumeDiff | Compares two resume versions and reports what changed in skills and content | [Live](https://resume-diff-azure.vercel.app/) |
+| GitHub Project Health Analyzer | Reviews README quality and project structure, then suggests fixes | [Live](https://git-hub-project-health-analyzer.vercel.app/) |
 
 **Earlier work**
 
@@ -144,15 +164,19 @@ Developers prove skills through coding challenges, GitHub repos, live demos and 
 
 ## Portfolio Features
 
-- Animated hero with a variable-weight name that reacts to the cursor and a typing role headline
+- Animated hero with a typing role headline and an interactive portrait (ringed circle, photo drifts with the cursor)
+- Smooth scrolling with [Lenis](https://github.com/darkroomengineering/lenis), one shared animation loop for every scroll effect
+- Horizontal 3D project reel with browser frames, live links, a progress rail and videos that play when centred
+- Scroll-velocity marquee that speeds up, skews and reverses with the scroll
 - Starfield canvas background with subtle parallax
 - Scroll progress bar and active-section highlighting in the navbar
-- Project cards with animated visuals and reveal-on-scroll effects
+- Compact featured project cards with animated visuals and reveal-on-scroll effects
+- Resume section with a document preview, work timeline, animated achievement counters and one-click PDF download
 - Built-in **resume download** (PDF embedded in the page, so it always works offline)
 - Contact form powered by Formspree, with an email fallback
 - Dark theme with light-mode support, fully responsive down to mobile
 - Respects `prefers-reduced-motion` and uses accessible labels and focus styles
-- Zero dependencies: one self-contained HTML file, no build step
+- No build step: one HTML file plus the `assets/` folder (project videos and posters); Lenis loads from a CDN and the page falls back to native scrolling if it can't
 
 ---
 
@@ -161,7 +185,7 @@ Developers prove skills through coding challenges, GitHub repos, live demos and 
 | Layer | Technology |
 |---|---|
 | Markup & Styling | HTML5, CSS3 (custom properties, grid, flexbox) |
-| Behavior | Vanilla JavaScript, Canvas API, IntersectionObserver |
+| Behavior | Vanilla JavaScript, Lenis (smooth scroll), Canvas API, IntersectionObserver |
 | Typography | Poppins (Google Fonts) |
 | Forms | Formspree |
 | Hosting | Netlify / Vercel |
@@ -216,6 +240,9 @@ The download button saves it as `Manash_Khati_Resume.pdf`.
 ```text
 .
 ├── index.html            # Complete portfolio: markup, styles, scripts, resume
+├── assets/
+│   ├── videos/           # Screen recordings for the project reel
+│   └── posters/          # Poster frames shown before each video loads
 ├── docs/
 │   └── screenshots/      # README images
 ├── README.md
@@ -228,7 +255,7 @@ The download button saves it as `Manash_Khati_Resume.pdf`.
 
 I'm open to **full stack roles, freelance projects and collaborations**.
 
-- 📧 [manashrebuilds@gmail.com](mailto:manashrebuilds@gmail.com)
+- 📧 [webdevmanash@gmail.com](mailto:webdevmanash@gmail.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/manash-khati-b7a1b6385/)
 - 🐙 [GitHub](https://github.com/manashwebdev)
 - 📍 Haridwar, Uttarakhand, India
